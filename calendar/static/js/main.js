@@ -108,7 +108,7 @@ var calendar = $('#calendar').fullCalendar({
     $.ajax({
       type: "get",
       // 원본 경로 : data.json
-      url: "/calendar/data.json",
+      url: "../data.json",
       data: {
         // 화면이 바뀌면 Date 객체인 start, end 가 들어옴
         //startDate : moment(start).format('YYYY-MM-DD'),
